@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contentSection{
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    /* background-color:#EAF5FF; */
+    color: rgb(240, 248, 255);
+    background-image: linear-gradient(rgba(240, 248, 255,0.5),rgba(240, 248, 255,0.6)),url(./images/Keyless-Top4-1.svg);
+    background-position: center;
+    background-size: contain    ;
+    background-repeat: no-repeat;
+
+    height: 91vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.myborder{
+    border-bottom: 3px solid rgb(119, 136, 153 ,0.2);
+    /* border: 1px solid red; */
+}
+.content{
+        padding: 0px 60px;
+
+}
+.content h1{
+    background-image: linear-gradient(104deg,#3ed4c9,#3dc8eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.content h2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333333;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+.DownLoadbtn{
+    font-weight: 700;
+    background-color:  #35C4BA;
+    width: 150px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 27px 25px -26px #35c4ba;
+}
+.cardSection div{
+    margin: 10px;
+}
+.cardSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px ;
+    background-color: #F3F3F3;
+    flex-wrap: wrap;
+}
+.starSection{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.startHeading  h1{
+    font-weight: bolder ;
+    color: #333333;
+    font-size: 50px;
+    
+}
+.startHeading h4{
+    
+    color: #616670;
+}
+@media only screen and (max-width: 1060px){
+    
+    .contentSection{
+        height: auto !important;
+        padding-top: 80px;
+    }
+}
+@media only screen and (max-width: 720px){
+
+    .startHeading  h1{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 570px){
+    .startHeading  h1{
+        font-size: 27px !important;
+    }
+    .startHeading  h4{
+        font-size: 20px !important;
+
+
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .content h1{
+        font-size: 45px !important;
+    }
+    .content h2{
+        font-size: 35px !important;
+    }
+    .content p{
+        font-size: 15px !important;
+    }
+    .DownLoadbtn{
+        width: 140px !important;
+        font-size: 13px;
+    }
+    .emoji{
+        width: 40px !important;
+    }
+}
+@media only screen and (max-width:449px){
+
+    .startHeading  h1{
+        font-size: 24px !important;
+
+    }
+}
